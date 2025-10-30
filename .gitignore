@@ -1,0 +1,45 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# =========================================
+# Virtual environment
+# =========================================
+venv/
+.env
+
+# =========================================
+# Airflow runtime
+# =========================================
+logs/
+checkpoints/
+*.pid
+*.db
+*.sqlite
+
+# =========================================
+# Data
+# =========================================
+data_lake/raw_parquet/
+data_lake/processed_parquet/
+data_lake/processed_sentiment_parquet/
+data_lake/processed_sentiment_csv/
+
+# =========================================
+# OS / IDE files
+# =========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
